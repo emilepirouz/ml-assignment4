@@ -1,0 +1,13 @@
+{'lattice': 'rect', 'init': 'sample'} seed 0: f1 0.3755 qe 0.3035 te 0.0953 empty 0.246 25s
+{'lattice': 'rect', 'init': 'sample'} seed 1: f1 0.3782 qe 0.3033 te 0.0914 empty 0.249 25s
+{'lattice': 'rect', 'init': 'sample'} seed 2: f1 0.3761 qe 0.3050 te 0.0783 empty 0.232 26s
+{'lattice': 'rect', 'init': 'sample'} seed 3: f1 0.3763 qe 0.3049 te 0.0787 empty 0.236 27s
+{'lattice': 'rect', 'init': 'sample'} seed 4: f1 0.3781 qe 0.3050 te 0.0785 empty 0.234 25s
+{'lattice': 'rect', 'init': 'pca'} seed 0: f1 0.3761 qe 0.3050 te 0.0780 empty 0.233 26s
+{'lattice': 'hex', 'init': 'sample'} seed 0: f1 0.3745 qe 0.3137 te 0.0214 empty 0.263 26s
+{'lattice': 'hex', 'init': 'sample'} seed 1: f1 0.3753 qe 0.3137 te 0.0219 empty 0.261 28s
+{'lattice': 'hex', 'init': 'sample'} seed 2: f1 0.3922 qe 0.3113 te 0.0260 empty 0.259 29s
+{'lattice': 'hex', 'init': 'sample'} seed 3: f1 0.3958 qe 0.3114 te 0.0230 empty 0.254 26s
+{'lattice': 'hex', 'init': 'sample'} seed 4: f1 0.3855 qe 0.3113 te 0.0249 empty 0.259 27s
+{'lattice': 'hex', 'init': 'pca'} seed 0: f1 0.3768 qe 0.3141 te 0.0207 empty 0.272 26s
+{'lattice': 'hex', 'init': 'sample', 'ratio': 0.5, 'sigma_t': 1.0, 'epochs': 100, 'density': 'weighted', 'side': 30}

@@ -1,0 +1,11 @@
+{
+  "lattice": "hex",
+  "init": "sample",
+  "ratio": 0.5,
+  "sigma_t": 1.0,
+  "epochs": 100,
+  "density": "weighted",
+  "side": 90,
+  "alpha": 0.25,
+  "clusters": 2000
+}

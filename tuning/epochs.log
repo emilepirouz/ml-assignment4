@@ -1,0 +1,34 @@
+{'epochs': 50} seed 0: f1 0.3761 qe 0.3145 te 0.0228 empty 0.267 16s
+{'epochs': 50} seed 1: f1 0.3756 qe 0.3148 te 0.0230 empty 0.263 16s
+{'epochs': 50} seed 2: f1 0.3732 qe 0.3134 te 0.0219 empty 0.254 15s
+{'epochs': 50} seed 3: f1 0.3769 qe 0.3155 te 0.0220 empty 0.260 16s
+{'epochs': 50} seed 4: f1 0.3724 qe 0.3131 te 0.0219 empty 0.260 16s
+{'epochs': 100} seed 0: f1 0.3745 qe 0.3137 te 0.0214 empty 0.263 30s
+{'epochs': 100} seed 1: f1 0.3753 qe 0.3137 te 0.0219 empty 0.261 32s
+{'epochs': 100} seed 2: f1 0.3922 qe 0.3113 te 0.0260 empty 0.259 32s
+{'epochs': 100} seed 3: f1 0.3958 qe 0.3114 te 0.0230 empty 0.254 32s
+{'epochs': 100} seed 4: f1 0.3855 qe 0.3113 te 0.0249 empty 0.259 32s
+{'epochs': 200} seed 0: f1 0.3740 qe 0.3132 te 0.0228 empty 0.251 63s
+{'epochs': 200} seed 1: f1 0.3738 qe 0.3131 te 0.0227 empty 0.250 62s
+{'epochs': 200} seed 2: f1 0.3882 qe 0.3112 te 0.0238 empty 0.267 64s
+{'epochs': 200} seed 3: f1 0.3881 qe 0.3112 te 0.0242 empty 0.266 62s
+{'epochs': 200} seed 4: f1 0.3892 qe 0.3112 te 0.0243 empty 0.267 64s
+Traceback (most recent call last):
+  File "/Users/emile/Desktop/Machine Learning/assignment4/code/tune.py", line 204, in <module>
+    main()
+    ~~~~^^
+  File "/Users/emile/Desktop/Machine Learning/assignment4/code/tune.py", line 199, in main
+    PARAMS.write_text(json.dumps(params, indent=2) + "\n")
+                      ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type int64 is not JSON serializable
+when serializing dict item 'epochs'

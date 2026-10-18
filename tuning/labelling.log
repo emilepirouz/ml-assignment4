@@ -1,0 +1,6 @@
+seed 0: 5766 occupied neurons
+seed 1: 5785 occupied neurons
+seed 2: 5759 occupied neurons
+seed 3: 5779 occupied neurons
+seed 4: 5848 occupied neurons
+{'lattice': 'hex', 'init': 'sample', 'ratio': 0.5, 'sigma_t': 1.0, 'epochs': 100, 'density': 'weighted', 'side': 90, 'alpha': 0.25, 'clusters': 2000}
